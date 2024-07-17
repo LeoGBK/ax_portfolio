@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <img class="circle" src="assets/img/logos/large.png">
+        <img class="circle" src="assets/img/logos/large.png" alt="Logo grande">
         <h1>Leo Giovanni Bermeo Kittyle</h1>
         <hr />
         <h2>Software Engineer</h2>
@@ -15,7 +15,21 @@
             <source src="assets/video/hero.mp4">
         </video>
     </header>
-    <nav></nav>
+    <nav id="navbar" class="open">
+        <div>
+            <a href="/">
+                <img class="circle" src="assets/img/logos/small.png" alt="Logo pequeno">
+                <span>Leo Giovanni Bermeo Kittyle<small>Software Engineer</small></small></span>
+            </a>
+            <button id="hamburger">☰</button>
+        </div>
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skillset">Skillset</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
     <main>
         <section>Portfolio</section>
         <section>Skills</section>
